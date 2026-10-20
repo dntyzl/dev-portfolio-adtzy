@@ -81,7 +81,7 @@ function Home() {
             {/* FOTO PROFIL */}
             <div className="tile avatar-tile">
               <img
-                src="/images/home/profile.jpeg"
+                src={`${import.meta.env.BASE_URL}images/home/profile.jpeg`}
                 alt="Profile"
                 className="avatar-img"
               />
