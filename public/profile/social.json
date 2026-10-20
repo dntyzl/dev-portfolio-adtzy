@@ -2,19 +2,15 @@
     "social": [
         {
             "network" : "linkedin",
-            "href": "https://linkedin.com/"
+            "href": "https://www.linkedin.com/in/aditya-rizal-hendrawan-542098356/"
         },
         {
-            "network" : "github",
-            "href": "https://github.com/mayankagarwal09"
-        },
-        {
-            "network" : "leetcode",
-            "href": "https://leetcode.com/"
+            "network" : "instagram",
+            "href": "https://www.instagram.com/dntyzl?dlrf=MTR5YnJ2ZTIxdjYyMQ=="
         },
         {
             "network" : "email",
-            "href": "mailto:test@test.com"
+            "href": "mailto:hendrawanadityariza@gmail.com?subject=Perkenalan&body=Halo%20Aditya%2C%20perkenalkan%20aku"
         }
     ]
 }

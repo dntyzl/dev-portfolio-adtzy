@@ -1,5 +1,5 @@
 {
-    "about": " This is where you can describe about **yourself**. The more you describe about yourself, the better it is!\n\n\nExtra Information about you, like hobbies and your goals.\nExample Paragraph: I am passionate about my work. Because I love what I do, I have a steady source of motivation that drives me to do my best. In my last job, this passion led me to challenge myself daily and learn new skills that helped me to do better work. For example, I taught myself how to use Photoshop to improve the quality of our photos and graphics. I soon became the go-to person for any design needs.",
-    "imageSource": "images/about/profile.png"
+    "about": " Hello, my name is Aditya Rizal Hendrawan. I am an Electrical Engineering Technology Student at Universitas Gadjah Mada and graduate from SMKN 2 Yogyakarta with experience in the Internet of Things (IoT) field.  I possess a foundational understanding of microcontroller programming using the Arduino IDE, as well as practical experience working with ESP8266, ESP32, and Mappi32 modules, sensors, and actuators to develop IoT-based systems. I have completed industrial internships at IoT technology companies (KMTek and Mertani).",
+    "imageSource": "images/about/ganteng.jpg"
     
 }

@@ -1,33 +1,52 @@
 {
     "experiences": [
         {
-            "title": "Software Engineer",
-            "subtitle": "XYZ Ltd",
-            "workType": "Full-time",
+            "title": "Junior Technical Support Data Center",
+            "subtitle": "Badan Nasional Sertifikasi Profesi (BNSP)",
+            "workType": "Professional Certification",
             "workDescription": [
-                "Integrated **2** new product.",
-                "Worked on adding **def** to **bcd**. Improved speed by 50%."
+                "Virtualization practice using Proxmox VE.",
+                "Ubuntu Server configuration and CMS management."
             ],
-            "dateText": "06/20XX – Present"
+            "dateText": "01/06/2025 – 01/02/2026",
+            "buttonText": "View Certificate",
+            "buttonUrl": "https://drive.google.com/file/d/1Op2LQF2GeR2ikQWBbosmEx3BpDGAZgdX/view?usp=sharing"
         },
         {
-            "title": "Software Engineer",
-            "subtitle": "XYZ Ltd",
-            "workType": "Internship",
+            "title": "Assistant Web Developer",
+            "subtitle": "PT. Karya Merapi Teknologi",
+            "workType": "Intership",
             "workDescription": [
-                "Worked on abc."
+                "Monthly website maintenance.",
+                "Website development and rebranding."
             ],
-            "dateText": "01/20XX – 05/20XX"
+            "dateText": "01/06/2025 – 01/02/2026",
+            "buttonText": "View Certificate",
+            "buttonUrl": "https://drive.google.com/file/d/1kr45zRHB32U3alRoX25-cl7JwcKuocdi/view?usp=sharing"
         },
         {
-            "title": "App Developer",
-            "subtitle": "ABC Pvt Ltd",
-            "workType": "Freelance",
+            "title": "Cyber Security Dasar",
+            "subtitle": "Indonesian IT Expert Factory",
+            "workType": "Online course",
             "workDescription": [
-                "Developed the official apps for the startup for both Android and iOS using hybrid framework.",
-                "Done bcd work."
+                "Get to know the OWASP Top 10, especially SQL Injection (SQLi), Cross-Site Scripting (XSS), and Broken Access Control.",
+                "Understanding the OSI/TCP-IP model, IP addresses, subnetting, ports, DNS, and common protocols."
             ],
-            "dateText": "09/20XX – 01/20YY"
+            "dateText": "06/08/2025",
+            "buttonText": "View Certificate",
+            "buttonUrl": "https://drive.google.com/file/d/1VGbLfD-LK969G5kTnEfgga849QigBmwD/view?usp=sharing"
+        },
+        {
+            "title": "Linux Dasar",
+            "subtitle": "Indonesian IT Expert Factory",
+            "workType": "Online course",
+            "workDescription": [
+                "Creating, copying, moving, and deleting files/folders.",
+                "Understanding the Linux directory hierarchy."
+            ],
+            "dateText": "05/08/2025",
+            "buttonText": "View Certificate",
+            "buttonUrl": "https://drive.google.com/file/d/1VqPdN9OdnhhOJ__yWKgKxiB2qC-EB57Q/view?usp=sharing"
         }
     ]
 }

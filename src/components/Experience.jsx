@@ -45,6 +45,20 @@ function Experience(props) {
                           </ReactMarkdown>
                         </li>
                       ))}
+
+                    {item.buttonText && item.buttonUrl && (
+                      <div className="experience-button-wrapper">
+                        <a
+                          href={item.buttonUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="btn-pill btn-accent"
+                        >
+                          {item.buttonText}
+                        </a>
+                      </div>
+                    )}
+
                     </ul>
                   </div>
                 </div>

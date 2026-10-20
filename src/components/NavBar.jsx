@@ -1,3 +1,4 @@
+
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import React, { useEffect, useState, useContext } from 'react';
 import { NavLink } from 'react-router-dom';
@@ -66,45 +67,56 @@ const NavBar = () => {
               alt="main logo"
               style={
                 data?.logo?.height && data?.logo?.width
-                  ? { height: data?.logo?.height, width: data?.logo?.width }
+                  ? {
+                      height: data?.logo?.height,
+                      width: data?.logo?.width,
+                    }
                   : styles.logoStyle
               }
             />
           </Navbar.Brand>
         )}
+
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
           onClick={() => setExpanded(!expanded)}
         />
+
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto" />
+
           <Nav>
             {data
-              && data.sections?.map((section, index) => (section?.type === 'link' ? (
-                <ExternalNavLink
-                  key={section.title}
-                  href={section.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  onClick={() => setExpanded(false)}
-                  className="navbar__link"
-                  theme={theme}
-                >
-                  {section.title}
-                </ExternalNavLink>
-              ) : (
-                <InternalNavLink
-                  key={section.title}
-                  onClick={() => setExpanded(false)}
-                  end={index === 0}
-                  className="navbar__link"
-                  to={section.href}
-                  theme={theme}
-                >
-                  {section.title}
-                </InternalNavLink>
-              )))}
+              && data.sections
+                ?.filter((section) => !section.hidden)
+                .map((section, index) => (
+                  section?.type === 'link' ? (
+                    <ExternalNavLink
+                      key={section.title}
+                      href={section.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      onClick={() => setExpanded(false)}
+                      className="navbar__link"
+                      theme={theme}
+                    >
+                      {section.title}
+                    </ExternalNavLink>
+                  ) : (
+                    <InternalNavLink
+                      key={section.title}
+                      onClick={() => setExpanded(false)}
+                      end={index === 0}
+                      className="navbar__link"
+                      to={section.href}
+                      theme={theme}
+                    >
+                      {section.title}
+                    </InternalNavLink>
+                  )
+                ))}
           </Nav>
+
           <ThemeToggler
             onClick={() => setExpanded(false)}
           />

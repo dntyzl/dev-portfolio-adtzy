@@ -1,18 +1,10 @@
 {
-    "intro": "I love to learn new things and experiment with new technologies.\nThese are some of the major languages, technologies, tools and platforms I have worked with:",
+    "intro": "I thrive on continuously learning new technologies and adapting to modern software practices. Below is an overview of the core programming languages, frameworks, and tools I leverage to build efficient, scalable, and user-centered digital solutions. I have worked with:",
     "skills": [{
      
-            "title": "Languages & Databases",
+            "title": "Languages & Database",
             "items" : [
      
-                {
-                    "icon": "images/skills/java.png",
-                    "title": "Java"
-                },
-                {
-                    "icon": "images/skills/php.png",
-                    "title": "PHP"
-                },
                 {
                     "icon": "images/skills/js.png",
                     "title": "JavaScript"
@@ -22,42 +14,67 @@
                     "title": "Python"
                 },
                 {
+                    "icon": "images/skills/kotlin.png",
+                    "title": "Kotlin"
+                },
+                 {
                     "icon": "images/skills/mysql.png",
-                    "title": "MySQL"
-                }
-        ]},
-        {
-            "title": "Frameworks & Technologies",
-            "items" : [
-                {
-                    "icon": "images/skills/android_new.png",
-                    "title": "Android"
+                    "title": "MYSQL"
                 },
                 {
-                    "icon": "images/skills/react.png",
-                    "title": "React"
-                },
-                {
-                    "icon": "images/skills/nodejs.png",
-                    "title": "Nodejs"
+                    "icon": "images/skills/mariadb.png",
+                    "title": "MariaDB"
                 }
             ]
         },
         {
-            "title" : "Tools & Platforms",
-            "items": [
+            "title": "Content Management Systems & Frameworks",
+            "items" : [
                 {
-                    "icon": "images/skills/android-studio.png",
-                    "title": "Android Studio"
+                    "icon": "images/skills/wordpress.png",
+                    "title": "Wordpress"
                 },
                 {
-                    "icon": "images/skills/git.png",
-                    "title": "Git"
+                    "icon": "images/skills/joomla.png",
+                    "title": "Joomla"
                 },
                 {
-                    "icon": "images/skills/docker.png",
-                    "title": "Docker"
+                    "icon": "images/skills/moodle.png",
+                    "title": "Moodle"
+                },
+                {
+                    "icon": "images/skills/react.png",
+                    "title": "React.js"
                 }
             ]
-    }
+        },
+        {
+            "title" : "IoT & Development Tools",
+            "items": [
+                {
+                    "icon": "images/skills/arduino.png",
+                    "title": "Arduino IDE"
+                },
+                {
+                    "icon": "images/skills/esp.png",
+                    "title": "ESP8266"
+                },
+                {
+                    "icon": "images/skills/mqqt.png",
+                    "title": "MQTT"
+                },
+                {
+                    "icon": "images/skills/bylnk.png",
+                    "title": "Blynk"
+                },
+                {
+                    "icon": "images/skills/ifttt.png",
+                    "title": "IFTTT"
+                },
+                {
+                    "icon": "images/skills/android.png",
+                    "title": "Android Studio"
+                }
+            ]
+        }
 ]}

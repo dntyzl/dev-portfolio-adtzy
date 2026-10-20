@@ -132,3 +132,14 @@
 @media (max-width: 480px) {
   .tl-item { padding-left: 56px; }
 }
+
+.experience-button-wrapper {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.experience-button {
+  font-size: 12px;
+  padding: 6px 14px;
+}

@@ -1,19 +1,22 @@
 {
     "education":[
         {
-            "title": "Jun 20XX - Jun 20YY",
-            "cardTitle": "B.Tech, Computer Science",
-            "cardSubtitle":"XYZ University, City",
-            "cardDetailedText": "CGPA - 9.5",
+            "title": "2026 - Present",
+            "cardTitle": "Gadjah Mada University",
+            "cardSubtitle":"Bulaksumur, Caturtunggal, Depok, Sleman, Daerah Istimewa Yogyakarta.",
+            "cardDetailedText": "Electrical Engineering Technology Student",
             "icon" : {
-                "src": "images/education/lorem-ipsum.png"
+                "src": "images/education/logo_ugm.png"
             }
         },
         {
-            "title": "Apr 20XX",
-            "cardTitle": "High School",
-            "cardSubtitle":"ABC School, City",
-            "cardDetailedText": "Marks - 95%"
+            "title": "2022 - 2026",
+            "cardTitle": "Yogyakarta State Vocational High School 2",
+            "cardSubtitle":"Jl. A.M. Sangaji No. 47, Cokrodiningratan, Kec. Jetis, Kota Yogyakarta, DIY 55233",
+            "cardDetailedText": "network and application information systems",
+            "icon" : {
+                "src": "images/education/smk.png"
+            }
         }
     ]
 }
