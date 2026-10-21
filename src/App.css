@@ -248,10 +248,13 @@
   gap: var(--space-2);
 }
 
+
 .navbar-custom {
   transition: transform 0.35s ease-in-out;
+  will-change: transform;
 }
 
 .navbar-custom.navbar-hidden {
-  transform: translateY(-100%);
+  transform: translateY(-110%);
+  pointer-events: none;
 }

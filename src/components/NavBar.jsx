@@ -52,28 +52,39 @@ const NavBar = () => {
 
   const [hidden, setHidden] = useState(false);
 
+
 useEffect(() => {
   let lastScrollY = window.scrollY;
 
   const handleScroll = () => {
     const currentScrollY = window.scrollY;
+    const scrollingDown = currentScrollY > lastScrollY;
 
-    setHidden(currentScrollY > lastScrollY && currentScrollY > 80);
+    if (currentScrollY < 80) {
+      setHidden(false);
+    } else if (scrollingDown) {
+      setHidden(true);
+    } else {
+      setHidden(false);
+    }
+
     lastScrollY = currentScrollY;
   };
 
   window.addEventListener('scroll', handleScroll, { passive: true });
 
-  return () => window.removeEventListener('scroll', handleScroll);
+  return () => {
+    window.removeEventListener('scroll', handleScroll);
+  };
 }, []);
 
   return (
     <Navbar
-      fixed="top"
-      expand="md"
-      variant={theme.bsPrimaryVariant}
-      className="navbar-custom"
-      expanded={expanded}
+        fixed="top"
+        expand="md"
+        variant={theme.bsPrimaryVariant}
+        className={`navbar-custom ${hidden ? 'navbar-hidden' : ''}`}
+        expanded={expanded}
     >
       <Container>
         {data?.logo && (
