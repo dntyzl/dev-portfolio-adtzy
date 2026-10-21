@@ -32,3 +32,25 @@
   object-fit: cover;
   display: block;
 }
+
+
+/* About: susun foto di atas teks pada layar HP */
+@media (max-width: 768px) {
+  .section-content-container .bento:has(.about-bio-tile) {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .section-content-container .about-image-tile {
+    order: 1;
+    width: 100%;
+    height: 280px;
+    min-height: 280px;
+  }
+
+  .section-content-container .about-bio-tile {
+    order: 2;
+    width: 100%;
+  }
+}
