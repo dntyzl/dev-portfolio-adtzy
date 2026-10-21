@@ -50,8 +50,26 @@ const NavBar = () => {
       .catch((err) => err);
   }, []);
 
+  const [hidden, setHidden] = useState(false);
+
+useEffect(() => {
+  let lastScrollY = window.scrollY;
+
+  const handleScroll = () => {
+    const currentScrollY = window.scrollY;
+
+    setHidden(currentScrollY > lastScrollY && currentScrollY > 80);
+    lastScrollY = currentScrollY;
+  };
+
+  window.addEventListener('scroll', handleScroll, { passive: true });
+
+  return () => window.removeEventListener('scroll', handleScroll);
+}, []);
+
   return (
     <Navbar
+      fixed="top"
       expand="md"
       variant={theme.bsPrimaryVariant}
       className="navbar-custom"
