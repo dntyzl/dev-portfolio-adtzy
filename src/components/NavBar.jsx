@@ -88,7 +88,7 @@ useEffect(() => {
     >
       <Container>
         {data?.logo && (
-          <Navbar.Brand href="/">
+          <Navbar.Brand href="/home">
             <img
               src={data?.logo?.source}
               className="d-inline-block align-top"
