@@ -1,6 +1,10 @@
 MIT License
 
+Original template:
 Copyright (c) 2022 Mayank Agarwal
+
+Portfolio modifications and original content:
+Copyright (c) 2026 Aditya Rizal Hendrawan
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
